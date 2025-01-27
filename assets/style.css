@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #a393eb;
+}
+
+.input__section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#names {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5e63b6;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #27296d;
+}
+
+.erro {
+    color: #333;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.list__section {
+    margin-bottom: 10px;
+}
+
+.list {
+    margin: 10px 0 20px 0;
+}
+
+.button__section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.result__section {
+    margin-top: 20px;
+}
+
+.result {
+    font-size: 1rem;
+    color: #333;
+}
+
+.result span {
+    display: block;
+    margin: 10px 0 20px 0;
+}
